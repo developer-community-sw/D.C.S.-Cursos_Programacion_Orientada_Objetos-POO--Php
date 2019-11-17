@@ -1,9 +1,12 @@
 <?php
 
-$firstName = 'Dulio';
-$lastName = 'Palacios';
-$fullName = "$firstName $lastName";
-
-echo "Bienvenido $fullName";
+class Curso{
+    public $nombre;
+    public $duracion;
+    public $costo;
+    public $moneda;
+    public $profesor;
+    public $disponible;
+}
 
 ?>
